@@ -6,7 +6,7 @@ pipeline{
 					MAVEN_HOME = '/usr/share/maven'
 				}
 			steps{
-					echo 'STARTING DEPLOYING'
+					echo 'STARTING DEPLOYING...'
 				
 				rtMavenDeployer (
 					id: 'REVERSE_SORT',
